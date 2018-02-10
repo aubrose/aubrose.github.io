@@ -1,0 +1,48 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+  
+  article p.town-article img { width: 29.333%; }
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F4E1D2;
+    width: 100%;
+}
+    
+nav ul li {
+    float: left;
+}
+    
+nav ul li a { display: block;
+    color: #626670;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+nav ul li.active a {
+    background-color: #b2c2bf;
+}
+    
+nav ul li a:hover {
+    color: #b2c2bf;
+}
+    
+article p.town-article img { 
+      width: 62.666%; 
+      padding-left: 10px;
+      float:right;
+}  /* responsive images */
+    
+town-article{
+    position:fixed;
+}
+    
+footer aside {
+        padding-top: 40px;
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,86 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav button { 
+      display:none; 
+    } 
+    /* hamburger button does not need to be shown */
+    
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F4E1D2;
+    width: 100%;
+    font-size: 13px;
+}
+    
+nav ul li {
+    float: left;
+}
+    
+nav ul li a { display: block;
+    color: #626670;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+nav ul li.active a {
+    background-color: #b2c2bf;
+}
+    
+nav ul li a:hover {
+    color: #b2c2bf;
+}
+    
+section.weathersummary {
+    text-align: left;
+    padding: 10px 70px;
+    margin: 10px;
+    border: double 3px #b2c2bf
+    
+}
+    
+picture{
+    position: relative;
+    bottom: 80px;
+    right: 10px;
+    float:right;
+    }
+    
+.forecast h3 {
+        text-align: center;
+        padding: 0px;
+    }
+table{
+        width:100%;
+    }
+    
+table, th, td {       
+        padding: 5px;
+        color: #626670;
+        border-collapse: collapse;
+        border: 1px solid #626670; 
+    }
+  
+section.forecast { 
+    display:inline-grid
+}  /* show the 10-day forecast with the medium view and up */
+  
+article p.town-article img { 
+      width: 62.666%; 
+      padding-left: 10px;
+      float:right;
+    }
+    
+town-article{
+    margin-bottom: 60px;
+    position:fixed;
+}
+    
+footer aside {
+        margin-top: 80px;
+    }
+}

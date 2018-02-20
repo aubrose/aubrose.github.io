@@ -43,7 +43,7 @@ section.weathersummary {
     
 }
     
-picture{
+.town{
     position: relative;
     bottom: 80px;
     right: 10px;
@@ -70,7 +70,6 @@ section.forecast {
 }  /* show the 10-day forecast with the medium view and up */
   
 article p.town-article img { 
-      width: 62.666%; 
       padding-left: 10px;
       float:right;
     }

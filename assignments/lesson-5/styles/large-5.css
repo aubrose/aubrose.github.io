@@ -31,11 +31,12 @@ nav ul li a:hover {
     color: #b2c2bf;
 }
     
-article p.town-article img { 
-      width: 62.666%; 
-      padding-left: 10px;
-      float:right;
-}  /* responsive images */
+article p.town-article img {  
+    padding-left: 10px;
+    width: 50%;
+    float:right;
+    
+}
     
 town-article{
     position:fixed;
@@ -43,6 +44,7 @@ town-article{
     
 footer aside {
         padding-top: 40px;
-        margin-top: 80px;
+    position:relative;
+    top: 300px;
     }
 }

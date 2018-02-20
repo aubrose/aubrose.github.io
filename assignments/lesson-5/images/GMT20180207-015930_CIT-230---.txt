@@ -1,0 +1,62 @@
+00:33:27	Holly Olson:	I wish there was a majic standard for jeans.
+00:33:57	Debbie M.:	That's funny :)
+00:39:07	nastia:	Holly, LOL amen
+00:41:36	Debbie M.:	Just want to make sure there were 447 lines because it mentioned over 450 in the activity
+00:42:06	Holly Olson:	That is where I read the comment that made me think we had to change it up some.
+00:44:11	Kristina-GA Plauche:	Can you repeat that? Did you say only @media queries in the medium
+00:44:15	Aaron Foote - AZ:	does it matter if the href comes before the rel
+00:44:19	Kristina-GA Plauche:	stylesheet
+00:44:33	Holly Olson:	Do you have to have them all in every web site you make?
+00:44:43	Celis:	Sorry but I don't know if we are going to query information about the weather
+00:45:02	Celis:	do we are going to do that?
+00:45:19	Celis:	are we going to do that?**
+00:45:28	Kristina-GA Plauche:	So the order of these stylesheet links matter?
+00:45:36	Kristina-GA Plauche:	Is that what you’re saying?
+00:45:52	Celis:	ok
+00:45:53	Collin Blake:	The same rule of last rule overrides the earlier ones yes
+00:46:01	Kristina-GA Plauche:	Ah! Thanks!
+00:46:35	Celis:	The site is going to be slow if we have multiple sheets with the media queries?
+00:48:44	teresamoser:	I have a question about rem px and %, when do you know to use each measurement? Is it better to stick with one measurement or mix it up?
+00:48:49	Celis:	600 px
+00:50:23	Debbie M.:	So every CSS rules we write in the medium stylesheet will replace the rule for the main?
+00:50:33	Collin Blake:	Yes if they are the same.
+00:51:33	Holly Olson:	How do you do the hamburger button?  I have been reading up on it and I am no where closer to getting it than I was before?
+00:51:51	Ali C - CA:	if the origin, importance and specificity are the same, the last rule listed wins
+00:52:01	Holly Olson:	Thanks, I was so confused.
+00:52:52	Debbie M.:	Since we are working on our PC's how are we to view that actual page in all it's glory when it won't be in the mobile viewport
+00:53:52	Jody - GA:	Debbie, chrome has an option for seeing it in mobile viewport when you right click and go to inspect
+00:54:00	Holly Olson:	what is keyword?
+00:54:10	Debbie M.:	Good to know thanks Jody!
+00:54:25	nastia:	Jody, thanks. didn’t know.
+00:54:42	Jody - GA:	Just discoved it.  :)
+00:54:46	Jason Blazzard:	Keyword: Float
+00:55:29	Ali C - CA:	Free Logo Design --> https://www.freelogodesign.org/
+00:55:45	nastia:	Ali - awesome! ty
+00:56:23	Celis:	we can do image optimization with save to web with photoshop?
+00:56:31	Celis:	can we**
+00:57:15	Ali C - CA:	proportional
+00:58:02	teresamoser:	Which is better? Png or jpeg
+00:59:06	Celis:	ok
+00:59:07	Holly Olson:	We are supossed to do all three css pages this week?
+00:59:16	kathryncolton:	yes
+01:12:29	Jody - GA:	They do it is at the bottom
+01:16:41	Jeremy Hawks - WA:	Your site isn't wide enough is it?
+01:17:17	Debbie M.:	Title is messed up
+01:17:19	kathryncolton:	the h1 moved
+01:18:27	kathryncolton:	what does clear: both; mean?
+01:19:11	Jody - GA:	Kathryn, it both means both right and left side
+01:19:12	kathryncolton:	ah, ok
+01:22:08	Ali C - CA:	you can switch to mobile mode if you inspect in brackets
+01:23:26	kathryncolton:	browser
+01:23:27	Jeremy Hawks - WA:	browser
+01:23:33	Celis:	it is chrome in this case
+01:32:11	Debbie M.:	what does the multiple -webkit css with the same rules mean? 
+01:32:32	Debbie M.:	got it! 
+01:32:44	Debbie M.:	It was in the css us when you were scrolling
+01:32:54	Debbie M.:	yes
+01:32:56	Debbie M.:	up above
+01:34:57	Celis:	Are you not sharing the screen?
+01:35:34	Ali C - CA:	I can't see your screen anymore
+01:35:42	Jeremy Hawks - WA:	You are not sharing your screen anymore
+01:35:53	Jody - GA:	me neither
+01:35:54	Celis:	Brother the screen is out

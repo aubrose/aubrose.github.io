@@ -12,7 +12,6 @@
     var w = weekday[d.getDay()];
     
     var d = new Date();
-
     var month = new Array();
     month[0] = "January";
     month[1] = "February";

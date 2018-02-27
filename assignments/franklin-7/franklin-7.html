@@ -31,7 +31,7 @@
     	<li><a href="#">Greenville</a></li>
     	<li><a href="#">Springfield</a></li>
     	<li><a href="#">Storm Center</a></li>
-    	<li><a href="#">Gallery</a></li>
+    	<li><a href="gallery-7.html">Gallery</a></li>
     </ul>		
   </nav>
     
@@ -43,22 +43,22 @@
                     images/franklin-large.jpg 1500w">
         </figure>
     <section class="weathersummary">
-      <h3>Weather Summary</h3>    
-      <div>
-        <p class= "high">High:90&deg;F</p>  
+      <h3 class="summary">Weather Summary</h3>    
+      <div class="highlow">
+        <p class= "high">High:90&deg;F</p>
         <p class ="low">Low:66&deg;F</p>  
       </div>
-      <div class="current">
-        <picture>
-            <img src="images/sunshine.png" alt="Sunshines" width="140" height="140">
+          <div class="current">
+          <picture>
+            <img src="images/sunshine.png" alt="Sunny" width="140" height="140">
+              <p>Sunny</p>
         </picture>
-      </div>   
+          </div>
       <div class="conditions">
-        <p>Sunny</p>
-        <p>Precipitation: 0%</p>
-        <p class="windspeed">Wind Speed: 5 mph SW</p> 
-        <p>Wind Chill:<span id="windchill"></span></p>
-      </div>           
+          <p>Precipitation: 0%   </p>
+        <p class="windspeed">  Wind Speed: 5 mph SW   </p> 
+        <p onload="doInputOutput()">With Wind Chill:   <span id="outputDiv"></span></p>
+    </div>           
     </section>
         
     <section class="forecast">
@@ -95,14 +95,15 @@
       </table>
     </section>
       
-    <article>
+<article>
       <h3>Franklin Breaks Record</h3>	
       <p class="town-article">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum urna dui. Ut imperdiet facilisis sapien. Nunc ultrices sem eget ligula hendrerit pulvinar non et tellus. Ut dignissim vel ipsum sagittis faucibus. Aenean iaculis eleifend nulla id rhoncus. Cras velit leo, maximus et finibus a, molestie eget quam.
         <img class="story-photo" src="images/franklin-story.jpg" alt="Town of franklin" sizes="50vw" srcset="images/franklin-story-small.jpg 300w, 
         images/franklin-story-medium.jpg 500w,
-        images/franklin-story-large.jpg 700w"></p>
-		</article>		  
+        images/franklin-story-large.jpg 700w">
+    </p>
+</article>		  
   
   </main>
     

@@ -1,12 +1,14 @@
-    var hightemp = parseInt(document.getElementById("high").value);
-	var lowtemp = parseInt(document.getElementById("low").value);
+function doInputOutput() {
+	  var hightemp = 90
+	var lowtemp = 66
     var t =(hightemp + lowtemp)/ 2;
-    var s = parseInt(document.getElementById("windspeed").value);
+    var s = 5
     var r = windChill(t, s);
-    document.getElementById('outputDiv').innerHTML = r;
+    document.getElementById("outputDiv").innerHTML = r;
+}
 
-windChill(t,s) 
-    var f= (35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16))
+function windChill(t,s) {
+    var f= Math.round(35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16))
     return f;
-
-document.getElementById("windchill").innerHTML = f
+ 
+}

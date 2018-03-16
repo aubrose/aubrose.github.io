@@ -1,0 +1,36 @@
+@media only screen and (min-width: 37.5em) {
+
+    
+   header .umbrella {
+    width: 120px;
+    height: 130px;
+}
+ 
+
+
+
+
+header .subheading {
+    bottom: 40px;
+}
+    
+    .navigation{
+        line-height: 3em;
+        font-size:18px;
+    }
+    
+    main div {
+    display: flex;
+    flex-direction: row;
+        
+    }
+    
+    div p {
+    margin:auto;
+    max-width:400px
+    }
+    
+    
+       
+    }
+

@@ -1,0 +1,339 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+main, footer { 
+  max-width: 800px;
+  min-width: 400px;
+    margin: auto;
+}
+header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+.umbrella {
+   float:left;
+    position:relative;
+    left:0px;
+    width: 120px;
+    height: 130px;
+}
+
+header h1 {
+    color: #626670;
+    font-size:45px;
+    position: relative;
+    top:70px;
+     
+}
+
+header .subheading {
+    color: #3f3931;
+    position: relative;
+    bottom: 40px;
+}
+
+nav button {
+    background-color: #b2c2bf; 
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+    background-color: #fcdfce;
+}
+
+nav ul li a { 
+    display: flex;
+    justify-content:center;
+    color: #626670;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+   background-color: #b2c2bf;
+}
+
+nav ul li a:hover {
+    background-color: #fcdfce;
+    color: #3f3931;
+}
+@media only screen and (max-width: 37.5em) {
+	.navigation.responsive { 
+        position: relative; 
+    }
+	.navigation.responsive li {
+        background-color: #fcdfce;
+        display: inline-block;
+        width: 100%;
+        margin: 2px 0;
+    }
+	.navigation.responsive li a {
+        padding: 1rem;
+        text-align: center;
+        display: block;
+        text-decoration:none;
+        color: #626670;
+    }
+	.navigation.responsive li a:hover{
+        background-color: #b2c2bf;
+        color: #626670; 
+    }
+}
+
+@media only screen and (min-width: 37.5em) {
+    header, nav {   
+    
+    }
+   main h1 { 
+        text-align: center;
+    }
+    .hamburger { 
+        display: none;
+    }    
+
+.navigation {
+    clear: left; 
+    text-align: center;
+     color: #626670;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.navigation button {
+    background-color: #b2c2bf; 
+}
+
+.navigation ul {
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    min-width: 400px;
+    background-color: #fcdfce;
+}
+     .navigation li  { 
+        display: inline-block;
+        margin-left: .25rem; 
+    }
+
+.navigation ul li a { 
+    display: inline block;
+    color: #626670;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navigation ul li.active a {
+   background-color: #b2c2bf;
+}
+
+.navigation ul li a:hover {
+    background-color: #b2c2bf;
+    color: #3f3931;
+}
+}
+h2{
+    text-align:center;
+    
+}
+img{
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.franklinpic{
+  position: relative;
+}
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#b2c2bf;
+}
+.franklinpic:hover .overlay {
+  opacity: 1;
+
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+img{
+    margin-left:auto;
+    margin-right:auto;
+}
+.data{
+    font-size: 40px;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    padding:15px;
+    
+}
+footer aside {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #b2c2bf;
+    padding:20px;
+    color: #626670;
+    line-height: 1.3em;   
+}
+
+footer>p {
+    background-color: #fcdfce;
+    padding: 20px;
+    margin:0;
+    text-align: center;
+}
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+
+
+}
+
+
+main {
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2 {
+    margin-top: 20px;
+    margin-bottom:0px;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main figure {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main figure img { 
+}
+
+section.weathersummary {
+    width:400px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    border: double 3px #b2c2bf;
+    
+}
+.captions{
+    padding: 15px;
+}
+
+.captions p{
+margin:auto;
+padding: 15px;
+font-size: 11px;
+width: 320px;
+}
+
+.forecast {
+      display: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right:auto;
+}
+
+h3 {
+   text-align: center; 
+}
+
+article p.town-article img { 
+    display: flex;
+    align-items: center;
+    margin:auto;
+    padding: 10px;
+}
+
+.town-article{
+    margin: 10px;
+}
+
+form#stormcenter{
+    margin: 1em;
+}
+
+fieldset {
+    background-color: #fff;
+    margin: 1em;
+    border: solid 1px #626670 ;
+}
+
+legend {
+    color:#626670;
+    text-align:left;
+    font-size: 20px;
+    padding: 10px; ;
+    
+}
+
+.thankyou{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.stormcenterbox{
+    max-width: 800px;
+    min-width:400px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 15px;
+}
+nav {
+    clear: left; 
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: .5em;
+    padding: 10px;
+    text-align: left;
+}
+
+label span {
+    display:block;
+    padding-bottom:10px;
+    
+        
+}

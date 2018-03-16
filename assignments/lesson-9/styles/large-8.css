@@ -1,0 +1,23 @@
+@media only screen and (min-width: 64em) {
+
+   .navigation{
+       max-width:800px;
+
+}
+        .umbrella {
+    position: absolute;
+    left: 450px;
+    top: 5px; 
+}
+
+header h1 {
+    left: 520px;
+    top: 50px; 
+     
+}
+
+header .subheading {
+    left: 540px;
+    bottom: 50px 
+}
+}

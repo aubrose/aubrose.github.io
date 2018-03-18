@@ -10,7 +10,8 @@ body {
 main, footer { 
   max-width: 800px;
   min-width: 400px;
-    margin: auto;
+    margin-left: auto;
+    margin-right:auto;
 }
 header {
     margin-left: auto;
@@ -196,7 +197,20 @@ main div{
     padding:15px;
     
 }
+.weathersummary{
+    margin-left:auto;
+    margin-right: auto;
+}
+    .townArticle{
+       display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: auto;
+        margin-right:auto;  
+    }
+
 footer aside {
+    
     display: flex;
     text-align: center;
     justify-content: center;
@@ -233,16 +247,14 @@ main h2 {
      display:flex;
     justify-content: center;
     align-items: center;
+   
+}
+figure img {
+    padding: 15px;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
     
-}
-
-main figure {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main figure img { 
 }
 
 section.weathersummary {
@@ -254,16 +266,6 @@ section.weathersummary {
     text-align:center;
     border: double 3px #b2c2bf;
     
-}
-.captions{
-    padding: 15px;
-}
-
-.captions p{
-margin:auto;
-padding: 15px;
-font-size: 11px;
-width: 320px;
 }
 
 .forecast {
@@ -277,15 +279,14 @@ h3 {
    text-align: center; 
 }
 
-article p.town-article img { 
-    display: flex;
-    align-items: center;
-    margin:auto;
-    padding: 10px;
-}
 
-.town-article{
-    margin: 10px;
+.townArticle{
+    margin-left:auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.townArticle img{
+    
 }
 
 form#stormcenter{
@@ -337,3 +338,18 @@ label span {
     
         
 }
+main div.weatherGallery figure:hover {
+		box-shadow: 3px 3px 9px rgba(0,2,2,1);
+	}
+main div.weatherGallery {
+display: grid;
+grid-template-columns: auto;
+    padding: 20px;
+
+  	
+}
+div.weatherGallery figure figcaption {
+    font-size: .9rem;
+    padding: 5px;
+}
+

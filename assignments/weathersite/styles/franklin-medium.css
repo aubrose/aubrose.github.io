@@ -1,6 +1,10 @@
 @media only screen and (min-width: 37.5em) {
-
     
+    .navigation{
+        line-height: 3em;
+        font-size:18px;
+    }
+        
    header .umbrella {
     width: 120px;
     height: 130px;
@@ -13,23 +17,6 @@
 header .subheading {
     bottom: 40px;
 }
-    
-    .navigation{
-        line-height: 3em;
-        font-size:18px;
-    }
-    
-    main div {
-    display: flex;
-    flex-direction: row;
-        
-    }
-    
-    div p {
-    margin:auto;
-    max-width:400px
-    }
-    @media only screen and (min-width: 37.5em) {
     
 .forecast {
     display:flex;
@@ -49,10 +36,7 @@ table, th, td {
         border-collapse: collapse;
         border: 1px solid #626670; 
     }
-    .town-article{
-        display:flex;
-        flex-direction:row;
-        flex-wrap:flex;
+
         
     }
     
@@ -82,12 +66,9 @@ flex: 1 1 100px;
         padding-left: 10px;
         padding-right: 10px;
     }
- .thankyou p{
+    .thankyou p{
         margin-left: auto;
         margin-right:auto;
         max-width: 500px;
     }
-    
-       
-    }
-
+}

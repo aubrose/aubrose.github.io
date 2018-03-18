@@ -24,20 +24,11 @@ table, th, td {
         flex-wrap:flex;
         
     }
-    
- .captions{
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-    .captions img{
-        padding: 15px;
-        
+    main div.weatherGallery {
+display: grid;
+grid-template-columns: auto auto ;
+    padding: 20px;
     }
-
-.captions>* {
-flex: 1 1 100px;
-}
     section.weathersummary {
     width:550px;
     display:flex;

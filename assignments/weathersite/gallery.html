@@ -20,66 +20,59 @@
     <img class="umbrella" src="images/umbrella120.png" alt="The site logo/ umbrella" width="120" height="130">
     <h1 class="top">Weatherproof</h1>
     <div class="subheading">Never settle for not knowing</div>
-</header>
+  </header>
 
   <!-- site navigation use placeholder references -->
   <nav>
     <button class= "hamburger" onclick="toggleNavMenu()">&#9776;</button>
     <ul class="navigation responsive">
-    	<li class="active"><a href="index.html">Home</a></li>
+    	<li><a href="index.html">Home</a></li>
     	<li><a href="franklin.html">Franklin</a></li>
-    	<li><a href="#">Greenville</a></li>
-    	<li><a href="#">Springfield</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
     	<li><a href="stormcenter.html">Storm Center</a></li>
-    	<li><a href="gallery-7.html">Gallery</a></li>
+    	<li class="active"><a href="gallery.html">Gallery</a></li>
     </ul>		
   </nav>
-    
-  <main>
-      
+        <main>
+            <h2 class="GalleryHeadline">Gallery</h2>
+            <div class="weatherGallery">
+                <figure>
+                <img src="images/rain.jpg" alt="Rainy City Day" >
+                    <figcaption>A Rainy Day in the City</figcaption>
+                </figure>
 
-<div class="clearfix">
-       <div class="franklinpic">
-            <img src="images/franklin.jpg" alt="Franklin" sizes="50vw" srcset="images/franklin-300.jpg , 
-                    images/franklin-600.jpg ,
-                    images/franklin-600.jpg ">
-          <div class="overlay">
-    <div class="text">Franklin</div>
-  </div>
-      </div>
-          
-       <div class="franklinpic">
-            <img src="images/greenville.jpg" alt="Greenville" sizes="50vw" srcset="images/greenville-300.jpg, 
-                    images/greenville-600.jpg,
-                    images/greenville-600.jpg">
-          <div class="overlay">
-    <div class="text">Greenville</div>
-  </div>
-      </div>
-          
-        <div class="franklinpic">
-            <img src="images/springfield.jpg" alt="Springfield" sizes="50vw" srcset="images/springfield-300.jpg, 
-                    images/springfield-600.jpg ,
-                    images/springfield-600.jpg">
-          <div class="overlay">
-    <div class="text">Springfield</div>
-  </div>
-    </div>       
-        
-          
-      </div>
-      
-      <section class="town-data">
-            <h2 class= "data">Town Data</h2> <!--Only created to clear warning from HTML5 validator-->
-            </section>
-      <script>
-        var section = document.querySelector('section');
-    </script>
-    
-    <script src="scripts/weathertowndata.js"></script>
-  </main>
-    
-  <footer>
+                <figure>
+                <img src="images/snow.jpg" alt="Snow" >
+                    <figcaption>Snow is Falling Gently in the Park</figcaption>
+                </figure>
+
+                <figure>
+                <img src="images/lighting.jpg"                
+                     alt="Sunset Wheat Field" >
+                    <figcaption>Lightning Strikes on a Cloudy Night</figcaption>
+                </figure>
+
+               <figure>
+                <img src="images/tornado.jpg" alt="Lake Ashville, North Carolina" >
+                    <figcaption>Tornado Hits Fields of Green</figcaption>
+                </figure>
+
+               <figure>
+                <img src="images/sunnyday.jpg"
+                     alt="Dirt Road Sunny Day" >
+                    <figcaption>Sunny Day by the Lake</figcaption>
+                </figure>
+
+               <figure>
+                <img src="images/cloudy.jpg"
+                     alt="Lonely Oak Tree" >
+                    <figcaption>Clouds Rolling Over the Skys</figcaption>
+                </figure>
+            </div>
+        </main>
+        <br>
+    <footer>
     <aside>
      <p> Weatherproof <br>
          95 Grimwald Place <br>
@@ -96,4 +89,4 @@
     <script src="scripts/windchill.js"></script>
 
 </body>
-</html> 
+</html>

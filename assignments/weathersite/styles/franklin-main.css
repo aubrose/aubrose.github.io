@@ -7,12 +7,17 @@ body {
   font-family: 'Libre Baskerville', serif;
 }
 
-header, nav, main, footer { 
+main, footer { 
   max-width: 800px;
   min-width: 400px;
     margin: auto;
 }
+header {
+    margin-left: auto;
+    margin-right: auto;
+}
 
+}
 .umbrella {
    float:left;
     position:relative;
@@ -23,21 +28,16 @@ header, nav, main, footer {
 
 header h1 {
     color: #626670;
+    font-size:45px;
     position: relative;
     top:70px;
-    left:-50px;
-    margin-bottom:40px;  
+     
 }
 
 header .subheading {
     color: #3f3931;
     position: relative;
-    bottom: 22px;
-}
-
-nav {
-    clear: left; 
-    text-align: center;
+    bottom: 40px;
 }
 
 nav button {
@@ -45,11 +45,8 @@ nav button {
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    max-width: 800px;
-    min-width: 400px;
     background-color: #fcdfce;
 }
 
@@ -94,10 +91,9 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 37.5em) {
     header, nav {   
-        margin: 0 auto;
-        max-width: 600px; 
+    
     }
-    h1 { 
+   main h1 { 
         text-align: center;
     }
     .hamburger { 
@@ -146,8 +142,6 @@ nav ul li a:hover {
     color: #3f3931;
 }
 }
-
-
 main {
     margin: auto;
     display:flex;

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sales</title>
+    <meta name="author" content="Aubrea Waite">
+    <meta name="description" content="Franklin Weather page">
+  <!-- external style references in the proper cascading order -->    
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/home-main.css" rel="stylesheet">
+    <link href="styles/home-medium.css" rel="stylesheet">  
+    <link href="styles/home-large.css" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <img class="bike" src="images/City-Bike-Clipart-PNG.png" alt="The site logo/bike">
+    <h2 class="top">The Mountain Spoke</h2>
+</header>
+
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+    <button class= "hamburger" onclick="toggleNavMenu()">&#9776;</button>
+       <ul class="navigation responsive">
+    	<li><a href="index.html">Home</a></li>
+    	<li ><a href="adventuretours.html">Adventure Tours</a></li>
+    	<li><a href="events.html">Events</a></li>
+    	<li class="active"><a href="Sales.html">Sales</a></li>
+    	<li><a href="Service.html">Service</a></li>
+    	<li><a href="Contact.html">Contct us</a></li>
+    </ul>		
+  </nav>
+        <main>
+            <h2 class="sales">Sales</h2>
+            <div class="weatherGallery">
+                <figure>
+                <img src="images/cannondale.jpg" alt="Connondale" >
+                    <figcaption>CANNONDALE<br>
+Big ups & big downs. All mountain & all day. With a killer new dual-mode, dual-travel shock, and Ai-driven, all-mountain attack geometry, the Trigger lives for big days in the big mountains, where sustained efforts lead to sublime rewards. Built for those ready to go all-out & all-in.
+                        <br> Price:$3,999.99
+</figcaption>
+                </figure>
+
+                <figure>
+                <img src="images/trek.jpg" alt="Trek" >
+                    <figcaption>TREK<br>
+Full Stache 8 is a full suspension 29+ trail bike with an oversized appetite for rugged backcountry riding. Sure-footed mid-fat tires, a 1x12 drivetrain, 130mm of front and rear travel, super short chainstays, and some ridiculously clever engineering make this 29+ trail bike the ideal rig for rugged singletrack and trail explorations into the unknown wild.
+                        <br> Price:$3,699.99
+ 
+</figcaption>
+                </figure>
+
+                <figure>
+                <img src="images/giant.jpg"                
+                     alt="Giant Bike" >
+                    <figcaption>GIANT<br>
+With its lightweight ALUXX SL aluminum frame and trail-friendly geometry, Fathom is a great choice for XC terrain and singletrack shredding. It blends the efficient ride quality of a classic hardtail with the can-do capabilities of an all-round off-roader. Engineered to optimize its 27.5 wheel platform, it has trail-friendly geometry including a more relaxed head angle made for a 120mm suspension fork.
+                        <br> Price: $1,480
+</figcaption>
+                </figure>
+            </div>
+        </main>
+        <br>
+   <footer>
+    <aside>
+     <p> The Mountain Spoke <br>
+         95 Grimwald Place <br>
+         Salt Lake City, Ut<br>
+         (801)521-3255<br>
+         ContactUs@themountainspoke.com</p>
+    
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+  </footer>
+
+    <script src="lesson-6/scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events</title>
+    <meta name="author" content="Aubrea Waite">
+    <meta name="description" content="Franklin Weather page">
+  <!-- external style references in the proper cascading order -->    
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <link href="styles/home-main.css" rel="stylesheet">
+    <link href="styles/home-medium.css" rel="stylesheet">  
+    <link href="styles/home-large.css" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <img class="bike" src="images/City-Bike-Clipart-PNG.png" alt="The site logo/bike">
+    <h2 class="top">The Mountain Spoke</h2>
+</header>
+    
+ 
+  <!-- site navigation use placeholder references -->
+  <nav>
+    <button class= "hamburger" onclick="toggleNavMenu()">&#9776;</button>
+    <ul class="navigation responsive">
+    	<li><a href="index.html">Home</a></li>
+    	<li ><a href="adventuretours.html">Adventure Tours</a></li>
+    	<li class="active"><a href="events.html">Events</a></li>
+    	<li><a href="Sales.html">Sales</a></li>
+    	<li><a href="Service.html">Service</a></li>
+    	<li><a href="Contact.html">Contct us</a></li>
+    </ul>
+  </nav>
+    
+    <nav>
+    <h1>Cycle the Continental Divide</h1>
+    
+    <h3>Three full days of mountain biking in Zion's Peak, Utah will leave you both exhausted and replenished. Giant old growth trees, lush ferns, creeks, waterfalls, and mountain meadows full of wildflowers make for some of the most beautiful singletrack around. From rolling riverside trails, to wild ripping descents, The Mountain Smoke has something for everyone.
+        <br>
+
+        <h3>With its small festival atmosphere, The Mountain Smoke is a unique experience. Join us for the most fun mountain bike weekend you'll ever have! Each day offers supported ride options for intermediate and advanced riders (this is not a beginner event).</h3>
+
+<ul class="list">
+    <li>Hundreds of miles of the world’s best singletrack.</li>
+    <li>Camp at the Red Covered Bridge portal, the bottom of Alpine trail!.</li>
+    <li>Delicious, nutricious breakfast and lunch provided.</li>
+    <li>On-site Food Cart Festival with plenty of options available when you get off the trail, and they stay open late for nighttime snacking. Plus, plenty of nearby restaurant options in town.</li>
+    <li>Free mechanical support from our exclusive shop support, River City Bicycles</li>
+    <li>Free dream bike demos.</li>
+    <li>Daily stretching sessions.</li>
+    <li>Women's rides and clinics.</li>
+    <li>Breakfast, lunch, snacks and a variety of beverages are ALL INCLUDED.</li>
+</ul>
+</h3>
+    </nav>
+<nav class=infobox>
+ <form action="thanks.html" method="post" enctype="multipart/data-form" name="attend" id="info">
+  <fieldset>
+    <legend><span>Personal Information</span></legend>
+      <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Jane Doe" pattern="[a-zA-Z ._]{5,99}" required></label>
+      <label><span>Email:</span><input name="email" type="email" value="" placeholder="exampe@mail.com"></label>
+         <label><span>Phone Number:</span><input name="phone" type="tel" value="" placeholder="1236654321" pattern="[0-9]{10,20}" required></label>
+        <label><span>Date of Birth:</span><input name="date" type="date" ></label>
+      <label><span>Home State/Country:</span><input name="state" type="text" list="state">
+             <datalist id="state">
+                <option value="United States"></option>
+                <option value="Canada"></option>
+                <option value="Utah"></option>
+                <option value="Arizona"></option>
+                <option value="Nevada"></option>
+             </datalist></label>
+      <label><span>Special Accommodations/Comments:</span><textarea name="message" rows="10" cols="30"></textarea></label>
+     </fieldset>
+
+     
+     <input type="submit" value="Submit" class="submit">
+     <input type="hidden" value="Info" name="subject">
+     <input name="redirect" type="hidden" value="thanks.html">
+     
+     
+    </form>   
+    
+    
+    
+    
+    
+</nav>
+    
+ <footer>
+    <aside>
+     <p> The Mountain Spoke <br>
+         95 Grimwald Place <br>
+         Salt Lake City, Ut<br>
+         (801)521-3255<br>
+         ContactUs@themountainspoke.com</p>
+    
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+  </footer>
+
+    <script src="lesson-8/scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+</html> 
